@@ -1,0 +1,19 @@
+{
+  "name": "men-pitp",
+  "version": "1.0.0",
+  "description": "Node Express MongoDB Mongoose - Student CRUD API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["express", "mongodb", "mongoose", "student", "crud"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.8.0"
+  }
+}
