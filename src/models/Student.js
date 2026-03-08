@@ -17,6 +17,7 @@ const studentSchema = new mongoose.Schema(
     age: {
       type: Number,
       min: [0, 'Age must be positive'],
+      max: [200, 'Age must be less than 200'],
       default: null,
     },
     course: {
